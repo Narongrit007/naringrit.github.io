@@ -1,28 +1,28 @@
 /* Profile */
 .profie{
-    background-image: url('back.png');
-    width: 100%; 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url('back.png');                  /*ภาพพื้นหลัง*/
+    width: 100%;                                        /*กำหนดความกว้างภาพพื้นหลัง*/
+    background-size: cover;                             /*กำหนดอัตราส่วนภาพให้เต็มพื้นที่*/
+    background-position: center;                        /*จัดตำแหน่งพื้นหลังให้อยู่ตรงกลาง*/
+    background-repeat: no-repeat;                       /*ภาพจะไม่โดนซ้อนทับ*/
+    color: white;                                     /*กำหนดตัวอักษรสีขาว*/
+    height: 600px;                                      /*ความสูงพื้นหลัง*/
+    display: flex;                                      /*จัดแต่งรูปแบบการแสดงผลเป็นแบบ flex box*/
+    justify-content: center;                            /*จัดรูปให้อยู่กึ่งกลาง*/
+    align-items: center;                                /*จัดรูปแบบข้างในให้อยู่กึ่งกลาง*/
     }
 .profie-info{
-text-align: center;
-font-size: 32px;
+text-align: center;                                     /*จัดรูปแบบตัวอักษรให้อยู่ตรงกลาง*/
+font-size: 32px;                                        /*กำหนดขนาดตัวอักษร*/
 }
 .profie-info img 
 {
-width: 300px;
-border-radius: 100%;
+width: 300px;                                           /*กำหนดความกว้างภาพ*/
+border-radius: 100%;                                    /*กำหนดกรอบภาพเป็นวงกลม*/
 
 }
 .profie-info h1{
-text-shadow: 5px 5px 10px black;
+text-shadow: 5px 5px 10px black;                    
 padding: 2px;
 }
 .profie-info p{
@@ -60,7 +60,6 @@ margin-top:   30px;
 div.gallery {  
 margin: 5px;
 border: 1px solid #ccc;
-float: left;
 justify-content: center; 
 align-items: center;
 width: 180px;
